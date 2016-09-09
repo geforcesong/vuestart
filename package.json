@@ -1,0 +1,22 @@
+{
+  "name": "vuestart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geforcesong/vuestart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geforcesong/vuestart/issues"
+  },
+  "homepage": "https://github.com/geforcesong/vuestart#readme",
+  "dependencies": {
+    "co": "^4.6.0"
+  }
+}
