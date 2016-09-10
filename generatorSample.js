@@ -2,8 +2,8 @@ var co = require('co')
 co(function*() {
     var result = yield asyncFun1(1)
     var result1 = yield asyncFun1(2)
-    var d = yield [asyncFun1(3), asyncFun1(4)]
-    return d
+    var e = yield [asyncFun1(5), asyncFun1(4)]
+    return e;
 }).then(function(value) {
     console.log(value)
 }, function(err) {
