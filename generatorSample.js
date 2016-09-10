@@ -1,8 +1,8 @@
 var co = require('co')
 co(function*() {
-    var result = yield asyncFun(1)
-    var result1 = yield asyncFun(2)
-    var d = yield [asyncFun(3), asyncFun(4)]
+    var result = yield asyncFun1(1)
+    var result1 = yield asyncFun1(2)
+    var d = yield [asyncFun1(3), asyncFun1(4)]
     return d
 }).then(function(value) {
     console.log(value)
@@ -10,7 +10,7 @@ co(function*() {
     console.error(err.stack)
 })
 
-function asyncFun(v) {
+function asyncFun1(v) {
     return new Promise((resolve, reject) => {
         setTimeout(function() {
             return resolve(v * 10)
