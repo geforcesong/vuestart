@@ -18,6 +18,7 @@ function asyncFun1(v) {
     })
 }
 
-function c() {
-    console.log("hello");
+function test() {
+    console.log("hew");
+    console.dir();
 }
